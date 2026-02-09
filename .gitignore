@@ -13,3 +13,6 @@ bkgd_masks/
 cone_masks/
 ECE5242Proj1-train/
 .ipynb_checkpoints/
+
+# submission files
+*.zip
