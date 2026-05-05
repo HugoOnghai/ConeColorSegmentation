@@ -11,7 +11,9 @@ From the project root, run the following:
 uv run --with jupyter jupyter lab
 ```
 
-Then, inside jupyter lab, navigate to `train-GDA.ipynb` or 'EM-implementation.ipynb' depending on if you would like to run the single gaussian discriminant analysis model or the gaussian mixture model fit with expectation maximization, respectively.
+Then, inside jupyter lab, navigate to `train-GDA.ipynb` or `train-EM.ipynb` depending on if you would like to run the single gaussian discriminant analysis model or the gaussian mixture model fit with expectation maximization, respectively.
+
+PROJECT CORERECTION UPDATE. The GDA and GMM models have been saved, and you can now evaluate the saved models directly in the new jupyter notebooks: `test-GDA.ipynb` and `test-EM.ipynb`. Run these to just get the pictures and bounding boxes and predicted distances to the cones.
 
 To perform color segmentation on a desired test image, place the image inside the directory `/Proj1TestImages/` at the root of the project. Then, run all cells in the Jupyter notebook. The second-to-last cell will display all results as printed statements and matplotlib figures in its output.
 
